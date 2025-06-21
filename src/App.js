@@ -23,6 +23,7 @@ import ResetPasswordPage from './pages/auth/ResetPassword';
 import Equipment from './pages/Equipment';
 import News from './pages/News';
 import Contact from './pages/Contact';
+import Specialties from './pages/Specialties';
 
 // Sửa đường dẫn import để trỏ đến vị trí đúng của các file
 import DoctorSearch from './pages/patient/DoctorSearch';
@@ -71,6 +72,8 @@ function AppWithRouter() {
           <Route path="/equipment" element={<Equipment />} />
           <Route path="/news" element={<News />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/departments" element={<Specialties />} />
+          <Route path="/specialties" element={<Specialties />} />
           
           {/* Doctor Search routes */}
           <Route path="/doctors" element={<DoctorSearch />} />
